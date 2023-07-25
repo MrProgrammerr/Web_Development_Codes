@@ -31,7 +31,7 @@ function checkAnswer(currentLevel) {
     if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
       if (userClickedPattern.length === gamePattern.length){
         setTimeout(function () {
-          nextSequence();0
+          nextSequence();
         }, 1000);
       }
     } else {
